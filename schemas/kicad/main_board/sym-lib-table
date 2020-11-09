@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MY_MCU_MODULE)(type Legacy)(uri /home/carter/MyRepos/suziccesory/schemas/kicad/main_board/MCU_Module.lib)(options "")(descr "Added Nucleo64 F103RB"))
+)

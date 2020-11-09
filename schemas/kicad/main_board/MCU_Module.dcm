@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT-09
+D Bluetooth module with CC2540 or CC2541 chip
+K bluetooth, module
+$ENDCMP
+#
+$CMP NUCLEO64-F103RB
+D Nucleo 64 Development Board with STM32F411RET6 MCU, 128kB RAM, 512KB FLASH
+K STM32 Nucleo ST
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/data_brief/DM00105918.pdf
+$ENDCMP
+#
+$CMP POLOLU_LSM6DS33
+D Pololu module for LSM6DS33 accl/gyro uC
+K accelerometer, gyroscope, imu
+F https://www.pololu.com/product/2736
+$ENDCMP
+#
+#End Doc Library
