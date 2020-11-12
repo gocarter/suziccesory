@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/carter/MyRepos/suziccesory/schemas/kicad/main_board/main_board.sch</source>
+    <date>Thu 12 Nov 2020 11:26:43 AM CET</date>
+    <tool>Eeschema 5.1.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>main_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J_3V3DC_IN1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F97D9DB</tstamp>
+    </comp>
+    <comp ref="J_BAT_IN1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F994D36</tstamp>
+    </comp>
+    <comp ref="J_VREG_OUT1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F99CE27</tstamp>
+    </comp>
+    <comp ref="J_IGNITION_SW1">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C4837</tstamp>
+    </comp>
+    <comp ref="U_MAIN_POWER_SIG_OPT1">
+      <value>LTV-827</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf</datasheet>
+      <libsource lib="Isolator" part="LTV-827" description="Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9CF946</tstamp>
+    </comp>
+    <comp ref="R_IGN_SW_OPT1">
+      <value>18k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA2D79C</tstamp>
+    </comp>
+    <comp ref="R_UC_OPT1">
+      <value>1k8</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA8DBDC</tstamp>
+    </comp>
+    <comp ref="Q_BAT_REV_CONN1">
+      <value>AO3407A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B3C64</tstamp>
+    </comp>
+    <comp ref="U_IMU_BOARD1">
+      <value>POLOLU_LSM6DS33</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.pololu.com/product/2736</datasheet>
+      <libsource lib="MY_MCU_MODULE" part="POLOLU_LSM6DS33" description="Pololu module for LSM6DS33 accl/gyro uC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA06BFE</tstamp>
+    </comp>
+    <comp ref="U_OPT_BAT_BRIDGE1">
+      <value>LTV-827</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf</datasheet>
+      <libsource lib="Isolator" part="LTV-827" description="Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA48C58</tstamp>
+    </comp>
+    <comp ref="U_OP_AMP_BAT_BRIDGE1">
+      <value>AS358P-E1</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM358" description="Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C6BB7</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_OPT_IN_LIM1">
+      <value>3k3</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0BEF8</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_IN_DIV_1">
+      <value>220k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3A13D</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_IN_DIV_2">
+      <value>43k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA3AF4D</tstamp>
+    </comp>
+    <comp ref="U_VREF_BAT_BRIDGE_BAT_SIDE1">
+      <value>TL431AIZ</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl431.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="TL431LP" description="Shunt Regulator, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C81B2</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_IN_REF_SUP1">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA6A469</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_IN_REF_1">
+      <value>1k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB1FB08</tstamp>
+    </comp>
+    <comp ref="C_BAT_BRIDGE_IN_REF1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB28178</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_IN_REF_OUT1">
+      <value>3k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F4821</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_IN_REF_2">
+      <value>6k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAE84C1</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_OUT_REF_OUT1">
+      <value>3k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7FD3F</tstamp>
+    </comp>
+    <comp ref="C_3V3_IN1">
+      <value>10p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCD6289</tstamp>
+    </comp>
+    <comp ref="C_BAT_BRIDGE_PRE_OP_AMP1">
+      <value>10p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDCF9A0</tstamp>
+    </comp>
+    <comp ref="C_BAT_BRIDGE_PRE_OP_AMP2">
+      <value>10p</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDD123B</tstamp>
+    </comp>
+    <comp ref="C_BAT_BRIDGE_POST_OP_AMP1">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE6CEAA</tstamp>
+    </comp>
+    <comp ref="C_BAT_BRIDGE_OUT_REF1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAA7135</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_OUT_REF2">
+      <value>6k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA4DAE3</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_OUT_REF1">
+      <value>1k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA48767</tstamp>
+    </comp>
+    <comp ref="U_VREF_BAT_BRIDGE_ISO_SIDE1">
+      <value>TL431AIZ</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl431.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="TL431LP" description="Shunt Regulator, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C9118</tstamp>
+    </comp>
+    <comp ref="R_BAT_BRIDGE_REF_OUT_LIM1">
+      <value>33R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0795A</tstamp>
+    </comp>
+    <comp ref="R_TEMP_SENSORS_REF_LIM1">
+      <value>24R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFC5886</tstamp>
+    </comp>
+    <comp ref="U_VREF_TEMP_SENSORS1">
+      <value>TL431AIZ</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl431.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="TL431LP" description="Shunt Regulator, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFC7805</tstamp>
+    </comp>
+    <comp ref="R_TEMP_SENSOR_REF1">
+      <value>1k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60021881</tstamp>
+    </comp>
+    <comp ref="R_BAT_SENSORS_REF2">
+      <value>6k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60022AB6</tstamp>
+    </comp>
+    <comp ref="C_TEMP_SENSOR_REF1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600542B3</tstamp>
+    </comp>
+    <comp ref="J_ENGINE_TEMP_P1000_IN1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600DAE28</tstamp>
+    </comp>
+    <comp ref="R_ENGINE_TEMP_SENSE_DIV1">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E6AF9</tstamp>
+    </comp>
+    <comp ref="U_ENGINE_TEMP_SENSE_OP_AMP1">
+      <value>LM324</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6010F51C</tstamp>
+    </comp>
+    <comp ref="R_ENGINE_TEMP_SENSE1">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602B31C6</tstamp>
+    </comp>
+    <comp ref="RV_ENGINE_TEMP_SENSE_TRIM_POT1">
+      <value>50k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602D0109</tstamp>
+    </comp>
+    <comp ref="R_ENGINE_TEMP_SENSE_OPAMP2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60312EFB</tstamp>
+    </comp>
+    <comp ref="R_ENGINE_TEMP_SENSE_OPAMP1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60357299</tstamp>
+    </comp>
+    <comp ref="R_ENGINE_TEMP_SENSE_OPAMP3">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6038A7F8</tstamp>
+    </comp>
+    <comp ref="R_ENGINE_TEMP_SENSE_OPAMP4">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6040014B</tstamp>
+    </comp>
+    <comp ref="R_ENGINE_TEMP_SENSE_OPAMP_OUT1">
+      <value>220k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6041D946</tstamp>
+    </comp>
+    <comp ref="U_EXT_TEMP_SENSE_OP_AMP1">
+      <value>LM324</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="LM324" description="Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60625FC2</tstamp>
+    </comp>
+    <comp ref="R_EXT_TEMP_SENSE1">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60625FD8</tstamp>
+    </comp>
+    <comp ref="RV_EXT_TEMP_SENSE1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60625FE2</tstamp>
+    </comp>
+    <comp ref="R_EXT_TEMP_SENSE_OPAMP2">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60625FF3</tstamp>
+    </comp>
+    <comp ref="R_EXT_TEMP_SENSE_OPAMP1">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60625FF9</tstamp>
+    </comp>
+    <comp ref="R_EXT_TEMP_SENSE_OPAMP3">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60626002</tstamp>
+    </comp>
+    <comp ref="R_EXT_TEMP_SENSE_OPAMP4">
+      <value>100k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60626016</tstamp>
+    </comp>
+    <comp ref="R_EXT_TEMP_SENSE_OPAMP_OUT1">
+      <value>220k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60626022</tstamp>
+    </comp>
+    <comp ref="C_ENGINE_TEMP_SENSE_P1000">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60844535</tstamp>
+    </comp>
+    <comp ref="J_EXT_TEMP_P1000_IN1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60891DE1</tstamp>
+    </comp>
+    <comp ref="C_EXT_TEMP_SENSE_P1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609A2D10</tstamp>
+    </comp>
+    <comp ref="J_EXT_TEMP_P1000_IN2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A388DB</tstamp>
+    </comp>
+    <comp ref="C_EXT_TEMP_SENSE_P2">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A388E1</tstamp>
+    </comp>
+    <comp ref="J_EXT_TEMP_P1000_IN3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A4FE5F</tstamp>
+    </comp>
+    <comp ref="C_EXT_TEMP_SENSE_P3">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A4FE65</tstamp>
+    </comp>
+    <comp ref="J_EXT_TEMP_P1000_IN4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A64B31</tstamp>
+    </comp>
+    <comp ref="C_EXT_TEMP_SENSE_P4">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A64B37</tstamp>
+    </comp>
+    <comp ref="R_EXT_TEMP_SENSE_DIV1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B8D126</tstamp>
+    </comp>
+    <comp ref="R_EXT_TEMP_SENSE_DIV2">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF45FE</tstamp>
+    </comp>
+    <comp ref="R_EXT_TEMP_SENSE_DIV3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF528B</tstamp>
+    </comp>
+    <comp ref="R_EXT_TEMP_SENSE_DIV4">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BF6149</tstamp>
+    </comp>
+    <comp ref="U_EXT_TEMP_SENSE_MUX1">
+      <value>CD4052B</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</datasheet>
+      <libsource lib="Analog_Switch" part="CD4052B" description="CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CB8DDA</tstamp>
+    </comp>
+    <comp ref="Q_TEMP_SENSORS_REF1">
+      <value>YJL3401AL</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD0AB09</tstamp>
+    </comp>
+    <comp ref="R_TEMP_SENSOR1">
+      <value>220k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600CE8F3</tstamp>
+    </comp>
+    <comp ref="Q_TEMP_SENSOR_REF2">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601111C4</tstamp>
+    </comp>
+    <comp ref="R_TEMP_SENSOR2">
+      <value>5k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602047F5</tstamp>
+    </comp>
+    <comp ref="Q_BAT_SW_CONN1">
+      <value>AO3407A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60441BD2</tstamp>
+    </comp>
+    <comp ref="R_MAIN_DRIVE_G_UP1">
+      <value>220k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604429C2</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>FB_3V3A</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAFFC72</tstamp>
+    </comp>
+    <comp ref="C_3V3A1">
+      <value>1u</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB49317</tstamp>
+    </comp>
+    <comp ref="R_3V3A1">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB4A948</tstamp>
+    </comp>
+    <comp ref="C_3V3A2">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBBAAD8</tstamp>
+    </comp>
+    <comp ref="C_STM_A_DECAP2">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD339AA</tstamp>
+    </comp>
+    <comp ref="C_STM_DECAP1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD7FB7A</tstamp>
+    </comp>
+    <comp ref="C_TEMP_SENSOR_REF2">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF6BB57</tstamp>
+    </comp>
+    <comp ref="C_ENGINE_TEMP_SENSE_DECAP1">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601BD77C</tstamp>
+    </comp>
+    <comp ref="C_EXT_TEMP_DECAP2">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6083A039</tstamp>
+    </comp>
+    <comp ref="C_EXT_TEMP_DECAP1">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6088AF8A</tstamp>
+    </comp>
+    <comp ref="C_BAT_BRIDGE_DECAP2">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60C5313E</tstamp>
+    </comp>
+    <comp ref="C_BAT_BRIDGE_DECAP1">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DA34F7</tstamp>
+    </comp>
+    <comp ref="U_BT1">
+      <value>AT-09</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="MY_MCU_MODULE" part="AT-09" description="Bluetooth module with CC2540 or CC2541 chip"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB05664</tstamp>
+    </comp>
+    <comp ref="J_STM_GND1">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6001138A</tstamp>
+    </comp>
+    <comp ref="J_STM_VCC1">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601AB39F</tstamp>
+    </comp>
+    <comp ref="J_STM_ADC1">
+      <value>Conn_01x03_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022A689</tstamp>
+    </comp>
+    <comp ref="J_STM_OUT_SIG1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602FCA57</tstamp>
+    </comp>
+    <comp ref="J_STM_COM1">
+      <value>Conn_01x09_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x09_Female" description="Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603F7CC4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM2902">
+      <aliases>
+        <alias>LM324</alias>
+        <alias>TLC274</alias>
+        <alias>TLC279</alias>
+        <alias>TL074</alias>
+        <alias>LM324A</alias>
+        <alias>MCP6004</alias>
+        <alias>TL084</alias>
+        <alias>TL064</alias>
+        <alias>LMV324</alias>
+        <alias>LMC6484</alias>
+        <alias>MCP604</alias>
+        <alias>MC33079</alias>
+        <alias>MC33174</alias>
+        <alias>MC33179</alias>
+        <alias>OPA1604</alias>
+        <alias>OPA1679</alias>
+        <alias>OPA4134</alias>
+        <alias>OPA4340UA</alias>
+        <alias>OPA4376</alias>
+        <alias>MCP6L94</alias>
+        <alias>TSV914</alias>
+        <alias>ADA4807-4</alias>
+        <alias>TSV994</alias>
+      </aliases>
+      <description>Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2902-n.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2902</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA1678</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+        <alias>OPA2277</alias>
+        <alias>MCP6022</alias>
+        <alias>MCP6V67EMS</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Analog_Switch" part="CD4052B">
+      <description>CMOS double 4-channel analog multiplexer/demultiplexer, TSSOP-16/DIP-16/SOIC-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd4052b.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>DIP*W7.62*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SO*5.3x10.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD4052B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y0" type="BiDi"/>
+        <pin num="2" name="Y2" type="BiDi"/>
+        <pin num="3" name="Y" type="BiDi"/>
+        <pin num="4" name="Y3" type="BiDi"/>
+        <pin num="5" name="Y1" type="BiDi"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="B" type="input"/>
+        <pin num="10" name="A" type="input"/>
+        <pin num="11" name="X3" type="BiDi"/>
+        <pin num="12" name="X0" type="BiDi"/>
+        <pin num="13" name="X" type="BiDi"/>
+        <pin num="14" name="X1" type="BiDi"/>
+        <pin num="15" name="X2" type="BiDi"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x09_Female">
+      <description>Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x09_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_TRIM">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="PC827">
+      <aliases>
+        <alias>LTV-827</alias>
+      </aliases>
+      <description>Dual DC Optocoupler, Vce 35V, CTR 50%, DIP-8</description>
+      <docs>http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series.PDF</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PC827</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MY_MCU_MODULE" part="AT-09">
+      <description>Bluetooth module with CC2540 or CC2541 chip</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT-09</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STATE" type="output"/>
+        <pin num="2" name="RXD" type="input"/>
+        <pin num="3" name="TXD" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="EN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MY_MCU_MODULE" part="POLOLU_LSM6DS33">
+      <description>Pololu module for LSM6DS33 accl/gyro uC</description>
+      <docs>https://www.pololu.com/product/2736</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">POLOLU_LSM6DS33</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD_(3V3_OUT)" type="unspc"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SDA/SDI/SDO" type="BiDi"/>
+        <pin num="5" name="SCL/SPC" type="input"/>
+        <pin num="6" name="SDO/SA0" type="BiDi"/>
+        <pin num="7" name="CS" type="input"/>
+        <pin num="8" name="INT2" type="output"/>
+        <pin num="9" name="INT1" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="TL431LP">
+      <description>Shunt Regulator, TO-92</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
+      <footprints>
+        <fp>TO*92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL431LP</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/app/share/kicad/library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Analog_Switch">
+      <uri>/app/share/kicad/library/Analog_Switch.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/app/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/app/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/app/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/app/share/kicad/library/Isolator.lib</uri>
+    </library>
+    <library logical="MY_MCU_MODULE">
+      <uri>/home/carter/MyRepos/suziccesory/schemas/kicad/main_board/MCU_Module.lib</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/app/share/kicad/library/Reference_Voltage.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/app/share/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q_TEMP_SENSOR_REF2-Pad2)">
+      <node ref="Q_TEMP_SENSOR_REF2" pin="2"/>
+      <node ref="R_TEMP_SENSOR2" pin="1"/>
+    </net>
+    <net code="2" name="TEMP_SENSOR_REF_ON_SIG">
+      <node ref="R_TEMP_SENSOR2" pin="2"/>
+      <node ref="J_STM_OUT_SIG1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J_IGNITION_SW1-Pad1)">
+      <node ref="R_IGN_SW_OPT1" pin="1"/>
+      <node ref="J_IGNITION_SW1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R_IGN_SW_OPT1-Pad2)">
+      <node ref="R_IGN_SW_OPT1" pin="2"/>
+      <node ref="U_MAIN_POWER_SIG_OPT1" pin="1"/>
+    </net>
+    <net code="5" name="EXT_TEMP_SENSOR_SIGNAL">
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="13"/>
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="5"/>
+    </net>
+    <net code="6" name="EXT_TEMP_SENSOR_SEL_A">
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="10"/>
+      <node ref="J_STM_OUT_SIG1" pin="3"/>
+    </net>
+    <net code="7" name="EXT_TEMP_SENSOR_SEL_B">
+      <node ref="J_STM_OUT_SIG1" pin="4"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="9"/>
+    </net>
+    <net code="8" name="Net-(Q_TEMP_SENSORS_REF1-Pad1)">
+      <node ref="R_TEMP_SENSOR1" pin="2"/>
+      <node ref="Q_TEMP_SENSORS_REF1" pin="1"/>
+      <node ref="Q_TEMP_SENSOR_REF2" pin="3"/>
+    </net>
+    <net code="9" name="Net-(C_3V3A1-Pad2)">
+      <node ref="C_3V3A1" pin="2"/>
+      <node ref="R_3V3A1" pin="1"/>
+    </net>
+    <net code="10" name="3V3A">
+      <node ref="C_ENGINE_TEMP_SENSE_DECAP1" pin="1"/>
+      <node ref="C_STM_A_DECAP2" pin="2"/>
+      <node ref="C_BAT_BRIDGE_DECAP2" pin="1"/>
+      <node ref="C_EXT_TEMP_DECAP2" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="C_3V3A1" pin="1"/>
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="11"/>
+      <node ref="C_EXT_TEMP_DECAP1" pin="1"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="16"/>
+      <node ref="R_BAT_BRIDGE_REF_OUT_LIM1" pin="1"/>
+      <node ref="C_3V3A2" pin="1"/>
+      <node ref="R_TEMP_SENSOR1" pin="1"/>
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="4"/>
+      <node ref="J_STM_VCC1" pin="1"/>
+      <node ref="Q_TEMP_SENSORS_REF1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(Q_BAT_SW_CONN1-Pad1)">
+      <node ref="U_MAIN_POWER_SIG_OPT1" pin="6"/>
+      <node ref="Q_BAT_SW_CONN1" pin="1"/>
+      <node ref="U_MAIN_POWER_SIG_OPT1" pin="8"/>
+      <node ref="R_MAIN_DRIVE_G_UP1" pin="2"/>
+    </net>
+    <net code="12" name="TEMP_SENSOR_3V_SUP">
+      <node ref="R_ENGINE_TEMP_SENSE1" pin="1"/>
+      <node ref="R_EXT_TEMP_SENSE_DIV1" pin="1"/>
+      <node ref="R_ENGINE_TEMP_SENSE_DIV1" pin="1"/>
+      <node ref="R_TEMP_SENSOR_REF1" pin="1"/>
+      <node ref="R_TEMP_SENSORS_REF_LIM1" pin="2"/>
+      <node ref="U_VREF_TEMP_SENSORS1" pin="3"/>
+      <node ref="R_EXT_TEMP_SENSE1" pin="1"/>
+      <node ref="R_EXT_TEMP_SENSE_DIV2" pin="1"/>
+      <node ref="R_EXT_TEMP_SENSE_DIV4" pin="1"/>
+      <node ref="R_EXT_TEMP_SENSE_DIV3" pin="1"/>
+      <node ref="C_TEMP_SENSOR_REF1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C_EXT_TEMP_SENSE_P4-Pad2)">
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="11"/>
+      <node ref="R_EXT_TEMP_SENSE_DIV4" pin="2"/>
+      <node ref="C_EXT_TEMP_SENSE_P4" pin="2"/>
+      <node ref="J_EXT_TEMP_P1000_IN4" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C_EXT_TEMP_SENSE_P3-Pad2)">
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="15"/>
+      <node ref="R_EXT_TEMP_SENSE_DIV3" pin="2"/>
+      <node ref="C_EXT_TEMP_SENSE_P3" pin="2"/>
+      <node ref="J_EXT_TEMP_P1000_IN3" pin="1"/>
+    </net>
+    <net code="15" name="Net-(U_BT1-Pad6)">
+      <node ref="U_BT1" pin="6"/>
+    </net>
+    <net code="16" name="EXT_TEMP_SENSOR_OUT">
+      <node ref="J_STM_ADC1" pin="2"/>
+      <node ref="R_EXT_TEMP_SENSE_OPAMP_OUT1" pin="2"/>
+    </net>
+    <net code="17" name="BAT_V_BRIDGE_OUT">
+      <node ref="R_BAT_BRIDGE_OUT_REF_OUT1" pin="1"/>
+      <node ref="J_STM_ADC1" pin="1"/>
+      <node ref="U_OPT_BAT_BRIDGE1" pin="8"/>
+    </net>
+    <net code="18" name="IMU_SDI">
+      <node ref="U_IMU_BOARD1" pin="4"/>
+      <node ref="J_STM_COM1" pin="5"/>
+    </net>
+    <net code="19" name="OFF_SIG">
+      <node ref="R_UC_OPT1" pin="1"/>
+      <node ref="J_STM_OUT_SIG1" pin="2"/>
+    </net>
+    <net code="20" name="BT_STATE">
+      <node ref="J_STM_COM1" pin="1"/>
+      <node ref="U_BT1" pin="1"/>
+    </net>
+    <net code="21" name="BT_RXD">
+      <node ref="J_STM_COM1" pin="2"/>
+      <node ref="U_BT1" pin="2"/>
+    </net>
+    <net code="22" name="BT_TXD">
+      <node ref="J_STM_COM1" pin="3"/>
+      <node ref="U_BT1" pin="3"/>
+    </net>
+    <net code="23" name="IMU_CS">
+      <node ref="U_IMU_BOARD1" pin="7"/>
+      <node ref="J_STM_COM1" pin="4"/>
+    </net>
+    <net code="24" name="IMU_SDO">
+      <node ref="J_STM_COM1" pin="6"/>
+      <node ref="U_IMU_BOARD1" pin="6"/>
+    </net>
+    <net code="25" name="IMU_SCL">
+      <node ref="U_IMU_BOARD1" pin="5"/>
+      <node ref="J_STM_COM1" pin="7"/>
+    </net>
+    <net code="26" name="IMU_INT2">
+      <node ref="U_IMU_BOARD1" pin="8"/>
+      <node ref="J_STM_COM1" pin="8"/>
+    </net>
+    <net code="27" name="IMU_INT1">
+      <node ref="J_STM_COM1" pin="9"/>
+      <node ref="U_IMU_BOARD1" pin="9"/>
+    </net>
+    <net code="28" name="ENGINE_TEMP_SENSOR_OUT">
+      <node ref="R_ENGINE_TEMP_SENSE_OPAMP_OUT1" pin="2"/>
+      <node ref="J_STM_ADC1" pin="3"/>
+    </net>
+    <net code="29" name="Net-(R_ENGINE_TEMP_SENSE_OPAMP1-Pad2)">
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="7"/>
+      <node ref="R_ENGINE_TEMP_SENSE_OPAMP1" pin="2"/>
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="6"/>
+    </net>
+    <net code="30" name="Net-(C_TEMP_SENSOR_REF2-Pad1)">
+      <node ref="R_TEMP_SENSORS_REF_LIM1" pin="1"/>
+      <node ref="C_TEMP_SENSOR_REF2" pin="1"/>
+      <node ref="Q_TEMP_SENSORS_REF1" pin="3"/>
+    </net>
+    <net code="31" name="Net-(C_ENGINE_TEMP_SENSE_P1000-Pad2)">
+      <node ref="R_ENGINE_TEMP_SENSE_DIV1" pin="2"/>
+      <node ref="C_ENGINE_TEMP_SENSE_P1000" pin="2"/>
+      <node ref="J_ENGINE_TEMP_P1000_IN1" pin="1"/>
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="5"/>
+    </net>
+    <net code="32" name="GND">
+      <node ref="R_ENGINE_TEMP_SENSE_OPAMP3" pin="1"/>
+      <node ref="C_EXT_TEMP_SENSE_P1" pin="1"/>
+      <node ref="J_EXT_TEMP_P1000_IN2" pin="2"/>
+      <node ref="C_TEMP_SENSOR_REF1" pin="2"/>
+      <node ref="C_EXT_TEMP_DECAP1" pin="2"/>
+      <node ref="C_EXT_TEMP_SENSE_P2" pin="1"/>
+      <node ref="R_EXT_TEMP_SENSE_OPAMP3" pin="1"/>
+      <node ref="RV_EXT_TEMP_SENSE1" pin="3"/>
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="4"/>
+      <node ref="C_ENGINE_TEMP_SENSE_P1000" pin="1"/>
+      <node ref="RV_ENGINE_TEMP_SENSE_TRIM_POT1" pin="3"/>
+      <node ref="C_EXT_TEMP_SENSE_P4" pin="1"/>
+      <node ref="J_EXT_TEMP_P1000_IN3" pin="2"/>
+      <node ref="R_BAT_BRIDGE_OUT_REF2" pin="1"/>
+      <node ref="J_3V3DC_IN1" pin="2"/>
+      <node ref="U_IMU_BOARD1" pin="3"/>
+      <node ref="C_BAT_BRIDGE_OUT_REF1" pin="1"/>
+      <node ref="U_VREF_TEMP_SENSORS1" pin="2"/>
+      <node ref="U_OPT_BAT_BRIDGE1" pin="7"/>
+      <node ref="Q_TEMP_SENSOR_REF2" pin="1"/>
+      <node ref="R_BAT_SENSORS_REF2" pin="2"/>
+      <node ref="C_3V3_IN1" pin="2"/>
+      <node ref="C_3V3A2" pin="2"/>
+      <node ref="J_EXT_TEMP_P1000_IN4" pin="2"/>
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="11"/>
+      <node ref="U_MAIN_POWER_SIG_OPT1" pin="4"/>
+      <node ref="R_3V3A1" pin="2"/>
+      <node ref="U_VREF_BAT_BRIDGE_ISO_SIDE1" pin="2"/>
+      <node ref="C_EXT_TEMP_SENSE_P3" pin="1"/>
+      <node ref="C_ENGINE_TEMP_SENSE_DECAP1" pin="2"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="3"/>
+      <node ref="C_EXT_TEMP_DECAP2" pin="2"/>
+      <node ref="J_ENGINE_TEMP_P1000_IN1" pin="2"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="2"/>
+      <node ref="C_STM_A_DECAP2" pin="1"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="4"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="5"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="6"/>
+      <node ref="J_STM_VCC1" pin="3"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="7"/>
+      <node ref="C_STM_DECAP1" pin="1"/>
+      <node ref="J_STM_GND1" pin="3"/>
+      <node ref="J_STM_GND1" pin="1"/>
+      <node ref="J_STM_GND1" pin="2"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="8"/>
+      <node ref="J_STM_GND1" pin="4"/>
+      <node ref="J_STM_GND1" pin="5"/>
+      <node ref="U_BT1" pin="4"/>
+      <node ref="J_STM_GND1" pin="6"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="1"/>
+      <node ref="C_BAT_BRIDGE_DECAP2" pin="2"/>
+      <node ref="C_TEMP_SENSOR_REF2" pin="2"/>
+      <node ref="J_EXT_TEMP_P1000_IN1" pin="2"/>
+    </net>
+    <net code="33" name="+3V3">
+      <node ref="C_3V3_IN1" pin="1"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="U_BT1" pin="5"/>
+      <node ref="J_STM_VCC1" pin="2"/>
+      <node ref="U_IMU_BOARD1" pin="1"/>
+      <node ref="J_3V3DC_IN1" pin="1"/>
+      <node ref="C_STM_DECAP1" pin="2"/>
+    </net>
+    <net code="34" name="BAT+_AFTER_MAIN_DRIVE">
+      <node ref="R_BAT_BRIDGE_IN_DIV_1" pin="1"/>
+      <node ref="C_BAT_BRIDGE_DECAP1" pin="1"/>
+      <node ref="R_BAT_BRIDGE_IN_REF_SUP1" pin="2"/>
+      <node ref="J_VREG_OUT1" pin="1"/>
+      <node ref="U_OP_AMP_BAT_BRIDGE1" pin="8"/>
+      <node ref="Q_BAT_SW_CONN1" pin="3"/>
+    </net>
+    <net code="35" name="Net-(RV_EXT_TEMP_SENSE1-Pad1)">
+      <node ref="R_EXT_TEMP_SENSE1" pin="2"/>
+      <node ref="RV_EXT_TEMP_SENSE1" pin="1"/>
+    </net>
+    <net code="36" name="Net-(R_BAT_BRIDGE_IN_REF_OUT1-Pad2)">
+      <node ref="R_BAT_BRIDGE_IN_REF_OUT1" pin="2"/>
+      <node ref="U_OPT_BAT_BRIDGE1" pin="6"/>
+      <node ref="U_OP_AMP_BAT_BRIDGE1" pin="3"/>
+    </net>
+    <net code="37" name="Net-(R_BAT_BRIDGE_IN_REF_1-Pad1)">
+      <node ref="U_VREF_BAT_BRIDGE_BAT_SIDE1" pin="1"/>
+      <node ref="R_BAT_BRIDGE_IN_REF_1" pin="1"/>
+      <node ref="R_BAT_BRIDGE_IN_REF_2" pin="1"/>
+    </net>
+    <net code="38" name="Net-(C_BAT_BRIDGE_IN_REF1-Pad1)">
+      <node ref="C_BAT_BRIDGE_IN_REF1" pin="1"/>
+      <node ref="R_BAT_BRIDGE_IN_REF_OUT1" pin="1"/>
+      <node ref="R_BAT_BRIDGE_IN_REF_SUP1" pin="1"/>
+      <node ref="U_VREF_BAT_BRIDGE_BAT_SIDE1" pin="3"/>
+      <node ref="R_BAT_BRIDGE_IN_REF_1" pin="2"/>
+    </net>
+    <net code="39" name="Net-(C_BAT_BRIDGE_PRE_OP_AMP1-Pad1)">
+      <node ref="R_BAT_BRIDGE_IN_DIV_1" pin="2"/>
+      <node ref="R_BAT_BRIDGE_IN_DIV_2" pin="1"/>
+      <node ref="U_OP_AMP_BAT_BRIDGE1" pin="5"/>
+      <node ref="C_BAT_BRIDGE_PRE_OP_AMP1" pin="1"/>
+    </net>
+    <net code="40" name="-BATT">
+      <node ref="R_BAT_BRIDGE_IN_DIV_2" pin="2"/>
+      <node ref="Q_BAT_REV_CONN1" pin="1"/>
+      <node ref="U_VREF_BAT_BRIDGE_BAT_SIDE1" pin="2"/>
+      <node ref="C_BAT_BRIDGE_POST_OP_AMP1" pin="2"/>
+      <node ref="R_BAT_BRIDGE_IN_REF_2" pin="2"/>
+      <node ref="U_MAIN_POWER_SIG_OPT1" pin="7"/>
+      <node ref="U_MAIN_POWER_SIG_OPT1" pin="5"/>
+      <node ref="C_BAT_BRIDGE_PRE_OP_AMP2" pin="2"/>
+      <node ref="C_BAT_BRIDGE_PRE_OP_AMP1" pin="2"/>
+      <node ref="C_BAT_BRIDGE_IN_REF1" pin="2"/>
+      <node ref="J_VREG_OUT1" pin="2"/>
+      <node ref="U_OPT_BAT_BRIDGE1" pin="4"/>
+      <node ref="U_OPT_BAT_BRIDGE1" pin="5"/>
+      <node ref="C_BAT_BRIDGE_DECAP1" pin="2"/>
+      <node ref="U_OP_AMP_BAT_BRIDGE1" pin="4"/>
+      <node ref="J_BAT_IN1" pin="2"/>
+      <node ref="U_MAIN_POWER_SIG_OPT1" pin="2"/>
+    </net>
+    <net code="41" name="Net-(U_IMU_BOARD1-Pad2)">
+      <node ref="U_IMU_BOARD1" pin="2"/>
+    </net>
+    <net code="42" name="Net-(C_BAT_BRIDGE_PRE_OP_AMP2-Pad1)">
+      <node ref="U_OP_AMP_BAT_BRIDGE1" pin="6"/>
+      <node ref="C_BAT_BRIDGE_PRE_OP_AMP2" pin="1"/>
+      <node ref="U_OP_AMP_BAT_BRIDGE1" pin="7"/>
+      <node ref="U_OP_AMP_BAT_BRIDGE1" pin="2"/>
+    </net>
+    <net code="43" name="Net-(R_UC_OPT1-Pad2)">
+      <node ref="U_MAIN_POWER_SIG_OPT1" pin="3"/>
+      <node ref="R_UC_OPT1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(J_BAT_IN1-Pad1)">
+      <node ref="Q_BAT_REV_CONN1" pin="2"/>
+      <node ref="J_BAT_IN1" pin="1"/>
+    </net>
+    <net code="45" name="Net-(U_OPT_BAT_BRIDGE1-Pad2)">
+      <node ref="U_OPT_BAT_BRIDGE1" pin="2"/>
+      <node ref="U_OPT_BAT_BRIDGE1" pin="3"/>
+    </net>
+    <net code="46" name="Net-(R_BAT_BRIDGE_OPT_IN_LIM1-Pad1)">
+      <node ref="U_OP_AMP_BAT_BRIDGE1" pin="1"/>
+      <node ref="R_BAT_BRIDGE_OPT_IN_LIM1" pin="1"/>
+    </net>
+    <net code="47" name="Net-(C_BAT_BRIDGE_POST_OP_AMP1-Pad1)">
+      <node ref="U_OPT_BAT_BRIDGE1" pin="1"/>
+      <node ref="C_BAT_BRIDGE_POST_OP_AMP1" pin="1"/>
+      <node ref="R_BAT_BRIDGE_OPT_IN_LIM1" pin="2"/>
+    </net>
+    <net code="48" name="+BATT">
+      <node ref="R_MAIN_DRIVE_G_UP1" pin="1"/>
+      <node ref="Q_BAT_REV_CONN1" pin="3"/>
+      <node ref="Q_BAT_SW_CONN1" pin="2"/>
+    </net>
+    <net code="49" name="Net-(R_EXT_TEMP_SENSE_OPAMP2-Pad2)">
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="2"/>
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="1"/>
+      <node ref="R_EXT_TEMP_SENSE_OPAMP2" pin="2"/>
+    </net>
+    <net code="50" name="Net-(R_EXT_TEMP_SENSE_OPAMP1-Pad2)">
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="6"/>
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="7"/>
+      <node ref="R_EXT_TEMP_SENSE_OPAMP1" pin="2"/>
+    </net>
+    <net code="51" name="Net-(R_EXT_TEMP_SENSE_OPAMP1-Pad1)">
+      <node ref="R_EXT_TEMP_SENSE_OPAMP3" pin="2"/>
+      <node ref="R_EXT_TEMP_SENSE_OPAMP1" pin="1"/>
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="10"/>
+    </net>
+    <net code="52" name="Net-(R_ENGINE_TEMP_SENSE_OPAMP2-Pad1)">
+      <node ref="R_ENGINE_TEMP_SENSE_OPAMP4" pin="1"/>
+      <node ref="R_ENGINE_TEMP_SENSE_OPAMP2" pin="1"/>
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="9"/>
+    </net>
+    <net code="53" name="Net-(R_ENGINE_TEMP_SENSE_OPAMP1-Pad1)">
+      <node ref="R_ENGINE_TEMP_SENSE_OPAMP1" pin="1"/>
+      <node ref="R_ENGINE_TEMP_SENSE_OPAMP3" pin="2"/>
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="10"/>
+    </net>
+    <net code="54" name="Net-(R_ENGINE_TEMP_SENSE_OPAMP2-Pad2)">
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="1"/>
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="2"/>
+      <node ref="R_ENGINE_TEMP_SENSE_OPAMP2" pin="2"/>
+    </net>
+    <net code="55" name="Net-(R_ENGINE_TEMP_SENSE_OPAMP4-Pad2)">
+      <node ref="R_ENGINE_TEMP_SENSE_OPAMP_OUT1" pin="1"/>
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="8"/>
+      <node ref="R_ENGINE_TEMP_SENSE_OPAMP4" pin="2"/>
+    </net>
+    <net code="56" name="Net-(C_EXT_TEMP_SENSE_P1-Pad2)">
+      <node ref="J_EXT_TEMP_P1000_IN1" pin="1"/>
+      <node ref="C_EXT_TEMP_SENSE_P1" pin="2"/>
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="12"/>
+      <node ref="R_EXT_TEMP_SENSE_DIV1" pin="2"/>
+    </net>
+    <net code="57" name="Net-(C_EXT_TEMP_SENSE_P2-Pad2)">
+      <node ref="U_EXT_TEMP_SENSE_MUX1" pin="14"/>
+      <node ref="C_EXT_TEMP_SENSE_P2" pin="2"/>
+      <node ref="R_EXT_TEMP_SENSE_DIV2" pin="2"/>
+      <node ref="J_EXT_TEMP_P1000_IN2" pin="1"/>
+    </net>
+    <net code="58" name="Net-(RV_EXT_TEMP_SENSE1-Pad2)">
+      <node ref="RV_EXT_TEMP_SENSE1" pin="2"/>
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="3"/>
+    </net>
+    <net code="59" name="Net-(R_EXT_TEMP_SENSE_OPAMP2-Pad1)">
+      <node ref="R_EXT_TEMP_SENSE_OPAMP4" pin="1"/>
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="9"/>
+      <node ref="R_EXT_TEMP_SENSE_OPAMP2" pin="1"/>
+    </net>
+    <net code="60" name="Net-(R_EXT_TEMP_SENSE_OPAMP4-Pad2)">
+      <node ref="U_EXT_TEMP_SENSE_OP_AMP1" pin="8"/>
+      <node ref="R_EXT_TEMP_SENSE_OPAMP_OUT1" pin="1"/>
+      <node ref="R_EXT_TEMP_SENSE_OPAMP4" pin="2"/>
+    </net>
+    <net code="61" name="Net-(C_BAT_BRIDGE_OUT_REF1-Pad2)">
+      <node ref="R_BAT_BRIDGE_REF_OUT_LIM1" pin="2"/>
+      <node ref="R_BAT_BRIDGE_OUT_REF1" pin="1"/>
+      <node ref="C_BAT_BRIDGE_OUT_REF1" pin="2"/>
+      <node ref="R_BAT_BRIDGE_OUT_REF_OUT1" pin="2"/>
+      <node ref="U_VREF_BAT_BRIDGE_ISO_SIDE1" pin="3"/>
+    </net>
+    <net code="62" name="Net-(R_BAT_BRIDGE_OUT_REF1-Pad2)">
+      <node ref="R_BAT_BRIDGE_OUT_REF2" pin="2"/>
+      <node ref="U_VREF_BAT_BRIDGE_ISO_SIDE1" pin="1"/>
+      <node ref="R_BAT_BRIDGE_OUT_REF1" pin="2"/>
+    </net>
+    <net code="63" name="Net-(R_BAT_SENSORS_REF2-Pad1)">
+      <node ref="U_VREF_TEMP_SENSORS1" pin="1"/>
+      <node ref="R_TEMP_SENSOR_REF1" pin="2"/>
+      <node ref="R_BAT_SENSORS_REF2" pin="1"/>
+    </net>
+    <net code="64" name="Net-(RV_ENGINE_TEMP_SENSE_TRIM_POT1-Pad1)">
+      <node ref="RV_ENGINE_TEMP_SENSE_TRIM_POT1" pin="1"/>
+      <node ref="R_ENGINE_TEMP_SENSE1" pin="2"/>
+    </net>
+    <net code="65" name="Net-(RV_ENGINE_TEMP_SENSE_TRIM_POT1-Pad2)">
+      <node ref="RV_ENGINE_TEMP_SENSE_TRIM_POT1" pin="2"/>
+      <node ref="U_ENGINE_TEMP_SENSE_OP_AMP1" pin="3"/>
+    </net>
+  </nets>
+</export>

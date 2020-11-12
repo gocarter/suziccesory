@@ -266,7 +266,7 @@ F 3 "https://www.pololu.com/product/2736" H 5400 1850 50  0001 C CNN
 	1    5400 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 4850 7550 0    50   Input ~ 0
+Text GLabel 4850 7550 0    50   Output ~ 0
 BAT+_AFTER_MAIN_DRIVE
 Wire Wire Line
 	4850 7550 4950 7550
